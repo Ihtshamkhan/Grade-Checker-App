@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:#f2f4f7;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    background-color:#fff;
+    font-weight: bold;
+    font-family: inherit;
+    color: #0866ff;
+}
+.container{
+      height: 300px;
+      margin-top: 130px;
+}
+
+.body{
+   border: 1px solid #fff;
+   background-color:#fff;
+   width: 30%;
+   height: 300px;
+   margin-left: 490px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1)
+   
+   
+}
+
+input{
+    height: 40px;
+    width: 60%;
+    padding-left: 90px;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 3px;
+    border: 1px solid #dddfe2;
+}
+
+
+button{
+    width: 30%;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 140px;
+    border-radius: 7px;
+    background-color:#0866ff;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #dddfe2;
+}
+
+
+h2{
+    margin-left: 150px;
+    margin-top: 30px;
+    background-color:#fff;
+}
+
+input:hover{
+    border-color: #0866ff;
+}
+
+button:hover{
+    background-color: #2778fa;
+}
+
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto; /* Center the container */
+    }
+
+    input {
+        width: 100%;
+        margin-left: auto; /* Center the input */
+        margin-right: auto; /* Center the input */
+    }
+
+    button {
+        width: 100%;
+        margin-left: auto; /* Center the button */
+        margin-right: auto; /* Center the button */
+    }
+
+    h2 {
+        margin-left: 100px; /* Adjust margin for mobile */
+        margin-right: 20px; /* Adjust margin for mobile */
+    }
+}
